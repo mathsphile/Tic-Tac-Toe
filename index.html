@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tic-Tac-Toe Game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="msg-container hide" aria-live="polite">
+        <p id="msg">Winner</p>
+        <button id="new-btn" aria-label="Start a new game">New Game</button>
+    </div>
+    <main>
+        <h1>Tic Tac Toe</h1>
+        <div class="container">
+            <div class="game" role="grid" aria-label="Tic Tac Toe">
+                <button class="box" role="gridcell" aria-label="Empty"></button>
+                <button class="box" role="gridcell" aria-label="Empty"></button>
+                <button class="box" role="gridcell" aria-label="Empty"></button>
+                <button class="box" role="gridcell" aria-label="Empty"></button>
+                <button class="box" role="gridcell" aria-label="Empty"></button>
+                <button class="box" role="gridcell" aria-label="Empty"></button>
+                <button class="box" role="gridcell" aria-label="Empty"></button>
+                <button class="box" role="gridcell" aria-label="Empty"></button>
+                <button class="box" role="gridcell" aria-label="Empty"></button>
+            </div>
+        </div>
+        <button id="reset-btn" aria-label="Reset the game">Reset Game</button>
+    </main>
+    <script src="app.js"></script>
+</body>
+
+</html>
